@@ -283,7 +283,7 @@ SWIFT_CLASS_NAMED("AEMReporter")
 + (void)setAdvertiserRuleMatchInServerEnabled:(BOOL)enabled;
 /// Handle deeplink
 /// This function should be called in <code>application(_:open:options:) </code>from ApplicationDelegate
-+ (void)handle:(NSURL * _Nonnull)url;
++ (void)handle:(NSURL * _Nullable)url;
 /// Calculate the conversion value for the app event based on the AEM configuration
 /// This function should be called when you log any in-app events
 + (void)recordAndUpdateEvent:(NSString * _Nonnull)event currency:(NSString * _Nullable)currency value:(NSNumber * _Nullable)value parameters:(NSDictionary<NSString *, id> * _Nullable)parameters;
@@ -591,7 +591,7 @@ SWIFT_CLASS_NAMED("AEMReporter")
 + (void)setAdvertiserRuleMatchInServerEnabled:(BOOL)enabled;
 /// Handle deeplink
 /// This function should be called in <code>application(_:open:options:) </code>from ApplicationDelegate
-+ (void)handle:(NSURL * _Nonnull)url;
++ (void)handle:(NSURL * _Nullable)url;
 /// Calculate the conversion value for the app event based on the AEM configuration
 /// This function should be called when you log any in-app events
 + (void)recordAndUpdateEvent:(NSString * _Nonnull)event currency:(NSString * _Nullable)currency value:(NSNumber * _Nullable)value parameters:(NSDictionary<NSString *, id> * _Nullable)parameters;

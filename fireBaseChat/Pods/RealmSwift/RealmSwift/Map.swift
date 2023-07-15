@@ -41,8 +41,6 @@ extension String: _MapKey { }
  is opened as read-only.
  
  A Map can be filtered and sorted with the same predicates as `Results<Value>`.
- 
- Properties of `Map` type defined on `Object` subclasses must be declared as `let` and cannot be `dynamic`.
 */
 public final class Map<Key: _MapKey, Value: RealmCollectionValue>: RLMSwiftCollectionBase {
 
@@ -814,7 +812,7 @@ extension Map: Sequence {
 
 extension Map {
     /// An adaptor for Map which makes it a sequence of `(key: Key, value: Value)` instead of a sequence of `SingleMapEntry`.
-    public struct KeyValueSequence<Key: _MapKey, Value: RealmCollectionValue>: Sequence {
+    public struct KeyValueSequence: Sequence {
         private let map: Map<Key, Value>
         fileprivate init(_ map: Map<Key, Value>) {
             self.map = map
@@ -826,8 +824,8 @@ extension Map {
     }
 
     /// Returns this Map as a sequence of `(key: Key, value: Value)`
-    public func asKeyValueSequence() -> KeyValueSequence<Key, Value> {
-        return KeyValueSequence<Key, Value>(self)
+    public func asKeyValueSequence() -> KeyValueSequence {
+        return KeyValueSequence(self)
     }
 }
 

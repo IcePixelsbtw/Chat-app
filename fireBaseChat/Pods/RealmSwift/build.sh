@@ -75,6 +75,7 @@ command:
   examples-ios-swift:   builds all Swift iOS examples
   examples-osx:         builds all macOS examples
   get-version:          get the current version
+  get-ioplatformuuid:   get io platform uuid
   set-version version:  set the version
   cocoapods-setup:      download realm-core and create a stub RLMPlatform.h file to enable building via CocoaPods
 
@@ -673,6 +674,7 @@ case "$COMMAND" in
 
         sh build.sh verify-cocoapods-ios
         sh build.sh verify-cocoapods-ios-dynamic
+        sh build.sh verify-cocoapods-ios-subdependency
         sh build.sh verify-cocoapods-osx
         sh build.sh verify-cocoapods-watchos
 
@@ -682,6 +684,7 @@ case "$COMMAND" in
         sh build.sh test-ios-objc-cocoapods
         sh build.sh test-ios-objc-cocoapods-dynamic
         sh build.sh test-ios-swift-cocoapods
+        sh build.sh test-ios-swift-cocoapods-subdependency
         sh build.sh test-osx-objc-cocoapods
         sh build.sh test-osx-swift-cocoapods
         sh build.sh test-catalyst-objc-cocoapods
@@ -697,6 +700,14 @@ case "$COMMAND" in
         export EXPANDED_CODE_SIGN_IDENTITY=''
         cd examples/installation
         sh build.sh test-ios-objc-cocoapods-dynamic
+        ;;
+
+    verify-cocoapods-ios-subdependency)
+        PLATFORM=$(echo "$COMMAND" | cut -d - -f 3)
+        # https://github.com/CocoaPods/CocoaPods/issues/7708
+        export EXPANDED_CODE_SIGN_IDENTITY=''
+        cd examples/installation
+        sh build.sh test-ios-swift-cocoapods-subdependency
         ;;
 
     verify-cocoapods-*)
@@ -953,6 +964,11 @@ case "$COMMAND" in
     ######################################
     "get-version")
         plist_get 'Realm/Realm-Info.plist' 'CFBundleShortVersionString'
+        exit 0
+        ;;
+
+    "get-ioplatformuuid")
+        ioreg -d2 -c IOPlatformExpertDevice | awk -F\" '/IOPlatformUUID/{print $(NF-1)}'
         exit 0
         ;;
 
@@ -1265,9 +1281,9 @@ x.y.z Release notes (yyyy-MM-dd)
 ### Compatibility
 * Realm Studio: 14.0.1 or later.
 * APIs are backwards compatible with all previous releases in the 10.x.y series.
-* Carthage release for Swift is built with Xcode 14.3.
+* Carthage release for Swift is built with Xcode 14.3.1.
 * CocoaPods: 1.10 or later.
-* Xcode: 14.1-14.3.1.
+* Xcode: 14.1-15 beta 1.
 
 ### Internal
 * Upgraded realm-core from ? to ?

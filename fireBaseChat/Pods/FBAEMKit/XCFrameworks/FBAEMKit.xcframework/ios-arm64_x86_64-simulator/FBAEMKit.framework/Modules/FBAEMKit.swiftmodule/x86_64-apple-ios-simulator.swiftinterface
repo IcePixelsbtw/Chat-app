@@ -20,7 +20,7 @@ public typealias FBGraphRequestCompletion = (Any?, Swift.Error?) -> Swift.Void
   @objc public static func setConversionFilteringEnabled(_ enabled: Swift.Bool)
   @objc public static func setCatalogMatchingEnabled(_ enabled: Swift.Bool)
   @objc public static func setAdvertiserRuleMatchInServerEnabled(_ enabled: Swift.Bool)
-  @objc public static func handle(_ url: Foundation.URL)
+  @objc public static func handle(_ url: Foundation.URL?)
   @objc(recordAndUpdateEvent:currency:value:parameters:) public static func recordAndUpdate(event: Swift.String, currency: Swift.String?, value: Foundation.NSNumber?, parameters: [Swift.String : Any]?)
   @objc override dynamic public init()
   @objc deinit

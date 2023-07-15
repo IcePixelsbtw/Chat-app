@@ -275,7 +275,7 @@ SWIFT_PROTOCOL_NAMED("_AEMReporterProtocol")
 + (void)setConversionFilteringEnabled:(BOOL)isEnabled;
 + (void)setCatalogMatchingEnabled:(BOOL)isEnabled;
 + (void)setAdvertiserRuleMatchInServerEnabled:(BOOL)isEnabled;
-+ (void)handle:(NSURL * _Nonnull)url;
++ (void)handle:(NSURL * _Nullable)url;
 @end
 
 
@@ -611,6 +611,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) FBSDKTransfo
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)configureWithDatasetID:(NSString * _Nonnull)datasetID url:(NSString * _Nonnull)url accessKey:(NSString * _Nonnull)accessKey;
 - (void)callCapiGatewayAPIWith:(NSDictionary<NSString *, id> * _Nonnull)parameters userAgent:(NSString * _Nonnull)userAgent;
+@end
+
+
+SWIFT_PROTOCOL_NAMED("MACARuleMatching")
+@protocol FBSDKMACARuleMatching
+- (void)enable;
+- (NSDictionary * _Nullable)processParameters:(NSDictionary * _Nullable)params event:(NSString * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class NSDate;
@@ -992,10 +999,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) FBSDKSetting
 /// @warning INTERNAL - DO NOT USE
 @property (nonatomic, copy) NSString * _Nullable userAgentSuffix;
 /// Controls the advertiser tracking status of the data sent to Facebook.
-/// The default value is <code>false</code>.
 @property (nonatomic) BOOL advertiserTrackingEnabled SWIFT_DEPRECATED_MSG("\n      This property is deprecated and will be removed in the next major release.       Use `isAdvertiserTrackingEnabled` instead.\n      ");
 /// Controls the advertiser tracking status of the data sent to Facebook.
-/// The default value is <code>false</code>.
 @property (nonatomic) BOOL isAdvertiserTrackingEnabled;
 /// Internal property exposed to facilitate transition to Swift.
 /// API Subject to change or removal without warning. Do not use.
@@ -1662,7 +1667,7 @@ SWIFT_PROTOCOL_NAMED("_AEMReporterProtocol")
 + (void)setConversionFilteringEnabled:(BOOL)isEnabled;
 + (void)setCatalogMatchingEnabled:(BOOL)isEnabled;
 + (void)setAdvertiserRuleMatchInServerEnabled:(BOOL)isEnabled;
-+ (void)handle:(NSURL * _Nonnull)url;
++ (void)handle:(NSURL * _Nullable)url;
 @end
 
 
@@ -1998,6 +2003,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) FBSDKTransfo
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)configureWithDatasetID:(NSString * _Nonnull)datasetID url:(NSString * _Nonnull)url accessKey:(NSString * _Nonnull)accessKey;
 - (void)callCapiGatewayAPIWith:(NSDictionary<NSString *, id> * _Nonnull)parameters userAgent:(NSString * _Nonnull)userAgent;
+@end
+
+
+SWIFT_PROTOCOL_NAMED("MACARuleMatching")
+@protocol FBSDKMACARuleMatching
+- (void)enable;
+- (NSDictionary * _Nullable)processParameters:(NSDictionary * _Nullable)params event:(NSString * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class NSDate;
@@ -2379,10 +2391,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) FBSDKSetting
 /// @warning INTERNAL - DO NOT USE
 @property (nonatomic, copy) NSString * _Nullable userAgentSuffix;
 /// Controls the advertiser tracking status of the data sent to Facebook.
-/// The default value is <code>false</code>.
 @property (nonatomic) BOOL advertiserTrackingEnabled SWIFT_DEPRECATED_MSG("\n      This property is deprecated and will be removed in the next major release.       Use `isAdvertiserTrackingEnabled` instead.\n      ");
 /// Controls the advertiser tracking status of the data sent to Facebook.
-/// The default value is <code>false</code>.
 @property (nonatomic) BOOL isAdvertiserTrackingEnabled;
 /// Internal property exposed to facilitate transition to Swift.
 /// API Subject to change or removal without warning. Do not use.

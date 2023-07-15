@@ -202,6 +202,10 @@ final public class KeychainStoreFactory : FBSDKCoreKit.KeychainStoreProviding {
   @objc final public func createKeychainStore(service: Swift.String, accessGroup: Swift.String?) -> FBSDKCoreKit.KeychainStoreProtocol
   @objc deinit
 }
+@objc(FBSDKMACARuleMatching) public protocol MACARuleMatching {
+  @objc func enable()
+  @objc func processParameters(_ params: Foundation.NSDictionary?, event: Swift.String?) -> Foundation.NSDictionary?
+}
 public enum Permission : Swift.Hashable, Swift.ExpressibleByStringLiteral {
   case publicProfile
   case userFriends
@@ -533,7 +537,7 @@ public struct ShareDialogConfiguration {
   @objc static func setConversionFilteringEnabled(_ isEnabled: Swift.Bool)
   @objc static func setCatalogMatchingEnabled(_ isEnabled: Swift.Bool)
   @objc static func setAdvertiserRuleMatchInServerEnabled(_ isEnabled: Swift.Bool)
-  @objc static func handle(_ url: Foundation.URL)
+  @objc static func handle(_ url: Foundation.URL?)
 }
 extension FBAEMKit.AEMReporter : FBSDKCoreKit._AEMReporterProtocol {
 }

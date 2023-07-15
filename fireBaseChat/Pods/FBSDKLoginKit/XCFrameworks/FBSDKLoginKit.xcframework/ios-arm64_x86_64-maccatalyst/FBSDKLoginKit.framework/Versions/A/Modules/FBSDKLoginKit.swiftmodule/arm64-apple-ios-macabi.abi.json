@@ -27532,1295 +27532,1295 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/AuthenticationTokenFactory.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/AuthenticationTokenFactory.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 29,
       "value": "\"-----BEGIN CERTIFICATE-----\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/AuthenticationTokenFactory.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/AuthenticationTokenFactory.swift",
       "kind": "StringLiteral",
       "offset": 784,
       "length": 27,
       "value": "\"-----END CERTIFICATE-----\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/CodeVerifier.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/CodeVerifier.swift",
       "kind": "IntegerLiteral",
       "offset": 1180,
       "length": 2,
       "value": "72"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/CodeVerifier.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/CodeVerifier.swift",
       "kind": "IntegerLiteral",
       "offset": 1231,
       "length": 2,
       "value": "43"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/CodeVerifier.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/CodeVerifier.swift",
       "kind": "IntegerLiteral",
       "offset": 1238,
       "length": 3,
       "value": "128"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
       "kind": "IntegerLiteral",
       "offset": 964,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
       "kind": "IntegerLiteral",
       "offset": 964,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DefaultAudience.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginCodeInfo.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginCodeInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 850,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginCodeInfo.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginCodeInfo.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 19,
       "value": "\"FBSDKLoginKit.DeviceLoginCodeInfo\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "Dictionary",
       "offset": 692,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 1994,
       "length": 7,
       "value": "1349172"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2089,
       "length": 7,
       "value": "1349173"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2198,
       "length": 7,
       "value": "1349174"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2268,
       "length": 7,
       "value": "1349152"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 1994,
       "length": 7,
       "value": "1349172"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2089,
       "length": 7,
       "value": "1349173"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2198,
       "length": 7,
       "value": "1349174"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2268,
       "length": 7,
       "value": "1349152"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginManager.swift",
       "kind": "StringLiteral",
       "offset": 803,
       "length": 18,
       "value": "\"FBSDKLoginKit.DeviceLoginManager\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginManagerResult.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/DeviceLoginManagerResult.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 24,
       "value": "\"FBSDKLoginKit.DeviceLoginManagerResult\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 908,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 7,
       "value": "\"model\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 7,
       "value": "\"fbsdk\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 1051,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 1171,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 1182,
       "length": 3,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 1370,
       "length": 5,
       "value": "\"dev\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/DeviceRequestsHelper.swift",
       "kind": "StringLiteral",
       "offset": 1450,
       "length": 11,
       "value": "\"_fb._tcp.\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "Array",
       "offset": 1814,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "BooleanLiteral",
       "offset": 3428,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4249,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4418,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4249,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4418,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "FloatLiteral",
       "offset": 4487,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "FloatLiteral",
       "offset": 4524,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "FloatLiteral",
       "offset": 4558,
       "length": 4,
       "value": "28.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "FloatLiteral",
       "offset": 4592,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginButton.swift",
       "kind": "FloatLiteral",
       "offset": 4637,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBLoginTooltipView.swift",
       "kind": "BooleanLiteral",
       "offset": 1202,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/FBPermission.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/FBPermission.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 12,
       "value": "\"FBSDKLoginKit.FBPermission\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 752,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 814,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 752,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 814,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1016,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1041,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1016,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1041,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1137,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1181,
       "length": 5,
       "value": "0.001"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1226,
       "length": 3,
       "value": "1.1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1273,
       "length": 4,
       "value": "0.98"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1319,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1364,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1425,
       "length": 2,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1471,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1519,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1561,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1602,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1650,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1731,
       "length": 4,
       "value": "0x6e"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1738,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1752,
       "length": 4,
       "value": "0x9c"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1759,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1772,
       "length": 4,
       "value": "0xf5"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1779,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1793,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1826,
       "length": 4,
       "value": "0x49"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1833,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1847,
       "length": 4,
       "value": "0x74"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1854,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1867,
       "length": 4,
       "value": "0xc6"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1874,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1888,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1970,
       "length": 4,
       "value": "0x51"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1977,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 1991,
       "length": 4,
       "value": "0x50"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 1998,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 2011,
       "length": 4,
       "value": "0x4f"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2018,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2032,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 2065,
       "length": 4,
       "value": "0x2d"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2072,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 2086,
       "length": 4,
       "value": "0x2c"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2093,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 2106,
       "length": 4,
       "value": "0x2c"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2113,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2127,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 2425,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 3318,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 3560,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "BooleanLiteral",
       "offset": 3936,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "BooleanLiteral",
       "offset": 3970,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 4074,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 4113,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 4158,
       "length": 3,
       "value": "185"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "IntegerLiteral",
       "offset": 4206,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "FloatLiteral",
       "offset": 4253,
       "length": 4,
       "value": "2.5"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "Array",
       "offset": 4300,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/FBTooltipView.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 13,
       "value": "\"FBSDKLoginKit.FBTooltipView\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 25,
       "value": "\"fb_login_button_did_tap\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 24,
       "value": "\"fb_smart_login_service\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 23,
       "value": "\"fb_mobile_login_start\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 26,
       "value": "\"fb_mobile_login_complete\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 924,
       "length": 30,
       "value": "\"fb_mobile_login_method_start\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 33,
       "value": "\"fb_mobile_login_method_complete\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginAppEventNames.swift",
       "kind": "StringLiteral",
       "offset": 1259,
       "length": 27,
       "value": "\"fb_mobile_login_heartbeat\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginConfiguration.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginConfiguration.swift",
       "kind": "Array",
       "offset": 9284,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginConfiguration.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 18,
       "value": "\"FBSDKLoginKit.LoginConfiguration\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "Dictionary",
       "offset": 679,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2931,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2983,
       "length": 7,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3059,
       "length": 15,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3165,
       "length": 16,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3272,
       "length": 12,
       "value": "304"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3367,
       "length": 15,
       "value": "305"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3579,
       "length": 24,
       "value": "306"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3677,
       "length": 24,
       "value": "307"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3772,
       "length": 18,
       "value": "308"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3857,
       "length": 14,
       "value": "309"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3939,
       "length": 18,
       "value": "310"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2931,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 2983,
       "length": 7,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3059,
       "length": 15,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3165,
       "length": 16,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3272,
       "length": 12,
       "value": "304"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3367,
       "length": 15,
       "value": "305"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3579,
       "length": 24,
       "value": "306"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3677,
       "length": 24,
       "value": "307"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3772,
       "length": 18,
       "value": "308"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3857,
       "length": 14,
       "value": "309"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginError.swift",
       "kind": "IntegerLiteral",
       "offset": 3939,
       "length": 18,
       "value": "310"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1430,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 1561,
       "length": 26,
       "value": "\"expected_login_challenge\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 1619,
       "length": 22,
       "value": "\"expected_login_nonce\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 1680,
       "length": 30,
       "value": "\"expected_login_code_verifier\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1771,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 1808,
       "length": 15,
       "value": "\"\/dialog\/oauth\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 1900,
       "length": 41,
       "value": "\"com.apple.SafariServices.Authentication\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 1982,
       "length": 59,
       "value": "\"com.apple.AuthenticationServices.WebAuthenticationSession\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 2245,
       "length": 14,
       "value": "\"browser_auth\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 2298,
       "length": 11,
       "value": "\"sfvc_auth\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 2562,
       "length": 82,
       "value": "\"Unable to find main bundle identifier. Cannot create keychain service identifier\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 2734,
       "length": 51,
       "value": "\"com.facebook.sdk.loginmanager.\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManager.swift",
       "kind": "StringLiteral",
       "offset": 2784,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 481,
       "length": 7,
       "value": "\"state\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 31,
       "value": "\"com.facebook.sdk_client_state\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 18,
       "value": "\"0_auth_logger_id\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 16,
       "value": "\"1_timestamp_ms\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 10,
       "value": "\"2_result\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 847,
       "length": 10,
       "value": "\"3_method\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 14,
       "value": "\"4_error_code\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 980,
       "length": 17,
       "value": "\"5_error_message\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1047,
       "length": 10,
       "value": "\"6_extras\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 17,
       "value": "\"7_logging_token\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1193,
       "length": 22,
       "value": "\"declined_permissions\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1288,
       "length": 15,
       "value": "\"error_message\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 21,
       "value": "\"inner_error_message\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1404,
       "length": 52,
       "value": "\"com.facebook.sdk:FBSDKErrorLocalizedDescriptionKey\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 58,
       "value": "\"com.facebook.sdk:FBSDKGraphRequestErrorGraphErrorCodeKey\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1614,
       "length": 23,
       "value": "\"com.facebook.sdk.core\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1655,
       "length": 24,
       "value": "\"com.facebook.sdk.login\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1614,
       "length": 23,
       "value": "\"com.facebook.sdk.core\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1655,
       "length": 24,
       "value": "\"com.facebook.sdk.login\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1758,
       "length": 11,
       "value": "\"cancelled\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerLogger.swift",
       "kind": "StringLiteral",
       "offset": 1758,
       "length": 11,
       "value": "\"cancelled\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManagerLoginResult.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginManagerLoginResult.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 23,
       "value": "\"FBSDKLoginKit.LoginManagerLoginResult\""
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/LoginManagerState.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginTracking.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginTracking.swift",
       "kind": "IntegerLiteral",
       "offset": 506,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginTracking.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/LoginTracking.swift",
       "kind": "IntegerLiteral",
       "offset": 506,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/MonotonicTimer.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/MonotonicTimer.swift",
       "kind": "IntegerLiteral",
       "offset": 387,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylinchang\/Workspace\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/MonotonicTimer.swift",
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKLoginKit\/FBSDKLoginKit\/Internal\/MonotonicTimer.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 57,
