@@ -217,6 +217,9 @@ class LoginViewController: UIViewController {
             }
             
             let user = result.user
+            
+            UserDefaults.standard.set(email, forKey: "email")
+            
             print("Logged in User: \(user)")
             strongSelf.navigationController?.dismiss(animated: true,
                                                      completion: nil)
@@ -253,6 +256,9 @@ class LoginViewController: UIViewController {
             else {
                 return
             }
+            
+            UserDefaults.standard.set(email, forKey: "email")
+
             
             DatabaseManager.shared.userExists(with: email, completion: { exists in
                 if !exists {
@@ -367,11 +373,9 @@ extension LoginViewController: LoginButtonDelegate {
                 print("Failed to get email and name from FBResults...")
                 return
             }
-            
-            //MARK: Checking if user is already exists
-            
-            
-            
+                        
+            UserDefaults.standard.set(email, forKey: "email")
+
             DatabaseManager.shared.userExists(with: email, completion: { exists in
                 if !exists {
                     let chatUser = ChatAppUser(firstName: firstName,
@@ -411,7 +415,7 @@ extension LoginViewController: LoginButtonDelegate {
             })
             
             
-            //MARK: Signing in via Firabase using Facebook credentials
+            //MARK: Signing in via Firabase us  ing Facebook credentials
             let credential = FacebookAuthProvider.credential(withAccessToken: token)
             FirebaseAuth.Auth.auth().signIn(with: credential,
                                             completion: { [weak self] authResult, error in
