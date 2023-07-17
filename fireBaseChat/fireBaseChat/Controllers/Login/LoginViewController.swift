@@ -256,9 +256,16 @@ class LoginViewController: UIViewController {
             
             DatabaseManager.shared.userExists(with: email, completion: { exists in
                 if !exists {
-                    DatabaseManager.shared.insertUser(with: ChatAppUser(firstName: firstName,
-                                                                        lastName: lastName ,
-                                                                        emailAddress: email))
+                    let chatUser = ChatAppUser(firstName: firstName,
+                                               lastName: lastName ,
+                                               emailAddress: email)
+                    
+                    DatabaseManager.shared.insertUser(with: chatUser, completion: { success in
+                        if success {
+                            //upload image
+                            
+                        }
+                    })
                 }
                 
             })
@@ -334,7 +341,7 @@ extension LoginViewController: LoginButtonDelegate {
         
         //MARK: Make a request to get data about the user
         let facebookRequest = FBSDKLoginKit.GraphRequest(graphPath: "me",
-                                                         parameters: ["fields" : "email, name"],
+                                                         parameters: ["fields" : "email, first_name, last_name, picture.type(large)"],
                                                          tokenString: token,
                                                          version: nil,
                                                          httpMethod: .get)
@@ -350,32 +357,59 @@ extension LoginViewController: LoginButtonDelegate {
             
             print("\(result)")
             
-            guard let userName = result["name"] as? String,
-                  let email = result["email"] as? String else {
+            guard let firstName = result["first_name"] as? String,
+                  let lastName = result["last_name"] as? String,
+                  let email = result["email"] as? String,
+                  let picture = result["picture"] as? [String: Any],
+                  let data = picture["data"] as? [String: Any],
+                  let pictureUrl = data["url"] as? String
+            else {
                 print("Failed to get email and name from FBResults...")
                 return
             }
             
-            let nameComponents = userName.components(separatedBy: " ")
-            
-            guard nameComponents.count == 2 else {
-                return
-            }
-            
-            let firstName = nameComponents[0]
-            let lastName = nameComponents[1]
-            
             //MARK: Checking if user is already exists
+            
+            
             
             DatabaseManager.shared.userExists(with: email, completion: { exists in
                 if !exists {
-                    DatabaseManager.shared.insertUser(with: ChatAppUser(firstName: firstName,
-                                                                        lastName: lastName,
-                                                                        emailAddress: email))
+                    let chatUser = ChatAppUser(firstName: firstName,
+                                               lastName: lastName ,
+                                               emailAddress: email)
+                    
+                    DatabaseManager.shared.insertUser(with: chatUser, completion: { success in
+                        if success {
+                            //upload image
+                            
+                            guard let url = URL(string: pictureUrl) else {
+                                return
+                            }
+                            print("Downloading data from facebook image")
+                            
+                            URLSession.shared.dataTask(with: url, completionHandler:  { data, _, _ in
+                                guard let data = data else {
+                                    print("An error occured: Failed to get data from facebook")
+                                    return
+                                }
+                                //upload image
+                                print("Successfully downloaded data from facebook image, uploading to DB")
+                                let fileName = chatUser.profilePictureFileName
+                                StorageManager.shared.uploadProfilePicture(with: data, fileName: fileName, completion: { result in
+                                    switch result {
+                                    case .success(let downloadURL):
+                                        UserDefaults.standard.set(downloadURL, forKey: "profile_picture_url")
+                                        print(downloadURL)
+                                    case .failure(let error):
+                                        print("An error occured: \(error)")
+                                    }
+                                })
+                            }).resume()
+                        }
+                    })
                 }
-                
-                
             })
+            
             
             //MARK: Signing in via Firabase using Facebook credentials
             let credential = FacebookAuthProvider.credential(withAccessToken: token)
@@ -402,7 +436,7 @@ extension LoginViewController: LoginButtonDelegate {
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginKit.FBLoginButton) {
         // no operation
     }
-    
-    
-    
 }
+
+
+
