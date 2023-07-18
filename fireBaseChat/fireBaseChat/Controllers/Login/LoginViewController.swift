@@ -258,7 +258,7 @@ class LoginViewController: UIViewController {
             }
             
             UserDefaults.standard.set(email, forKey: "email")
-
+            
             
             DatabaseManager.shared.userExists(with: email, completion: { exists in
                 if !exists {
@@ -269,6 +269,29 @@ class LoginViewController: UIViewController {
                     DatabaseManager.shared.insertUser(with: chatUser, completion: { success in
                         if success {
                             //upload image
+                            
+                            if user.profile?.hasImage == true {
+                                guard let url = user.profile?.imageURL(withDimension: 200) else {
+                                    return
+                                }
+                                
+                                
+                                URLSession.shared.dataTask(with: url, completionHandler: { data, _, _ in
+                                    guard let data = data else {
+                                        return
+                                    }
+                                    let fileName = chatUser.profilePictureFileName
+                                    StorageManager.shared.uploadProfilePicture(with: data, fileName: fileName, completion: { result in
+                                        switch result {
+                                        case .success(let downloadURL):
+                                            UserDefaults.standard.set(downloadURL, forKey: "profile_picture_url")
+                                            print(downloadURL)
+                                        case .failure(let error):
+                                            print("An error occured: \(error)")
+                                        }
+                                    })
+                                }).resume()
+                            }
                             
                         }
                     })
@@ -337,22 +360,24 @@ extension LoginViewController: UITextFieldDelegate {
 
 extension LoginViewController: LoginButtonDelegate {
     
+    //MARK: Facebook log in
+    
     func loginButton(_ loginButton: FBSDKLoginKit.FBLoginButton, didCompleteWith result: FBSDKLoginKit.LoginManagerLoginResult?, error: Error?) {
         
-        //MARK: Unwrap a token from Facebook
+        // Unwrap a token from Facebook
         guard let token = result?.token?.tokenString else {
             print("User faield to log in with Facebook...")
             return
         }
         
-        //MARK: Make a request to get data about the user
+        // Make a request to get data about the user
         let facebookRequest = FBSDKLoginKit.GraphRequest(graphPath: "me",
                                                          parameters: ["fields" : "email, first_name, last_name, picture.type(large)"],
                                                          tokenString: token,
                                                          version: nil,
                                                          httpMethod: .get)
         
-        //MARK: Execute a request
+        // Execute a request
         facebookRequest.start(completion: { _, result, error in
             
             guard let result = result as? [String: Any],
@@ -373,9 +398,9 @@ extension LoginViewController: LoginButtonDelegate {
                 print("Failed to get email and name from FBResults...")
                 return
             }
-                        
+            
             UserDefaults.standard.set(email, forKey: "email")
-
+            
             DatabaseManager.shared.userExists(with: email, completion: { exists in
                 if !exists {
                     let chatUser = ChatAppUser(firstName: firstName,
@@ -415,7 +440,7 @@ extension LoginViewController: LoginButtonDelegate {
             })
             
             
-            //MARK: Signing in via Firabase us  ing Facebook credentials
+            //  Signing in via Firebase using Facebook credentials
             let credential = FacebookAuthProvider.credential(withAccessToken: token)
             FirebaseAuth.Auth.auth().signIn(with: credential,
                                             completion: { [weak self] authResult, error in
