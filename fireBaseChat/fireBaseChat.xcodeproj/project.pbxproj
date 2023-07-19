@@ -25,6 +25,7 @@
 		3AE4A1D72A57222400915D2B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1D62A57222400915D2B /* ChatViewController.swift */; };
 		3AE4A1DB2A63002400915D2B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DA2A63002400915D2B /* StorageManager.swift */; };
 		3AE4A1DD2A630CF600915D2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DC2A630CF600915D2B /* GoogleService-Info.plist */; };
+		3AE4A1DF2A6755B000915D2B /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DE2A6755B000915D2B /* Structs.swift */; };
 		6D5AC96115C4E0851DB738FC /* Pods_fireBaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694BDA958CDA896CCBC10E1D /* Pods_fireBaseChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		3AE4A1D62A57222400915D2B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3AE4A1DA2A63002400915D2B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3AE4A1DC2A630CF600915D2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AE4A1DE2A6755B000915D2B /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		694BDA958CDA896CCBC10E1D /* Pods_fireBaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fireBaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DE5897E1B65C5121280E25 /* Pods-fireBaseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireBaseChat.release.xcconfig"; path = "Target Support Files/Pods-fireBaseChat/Pods-fireBaseChat.release.xcconfig"; sourceTree = "<group>"; };
 		ECED3B5843EAE05E93EE5D85 /* Pods-fireBaseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireBaseChat.debug.xcconfig"; path = "Target Support Files/Pods-fireBaseChat/Pods-fireBaseChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				3ABE64AE2A0EA49900BB04CA /* Colors.swift */,
 				3ABB80DF2A167E5D006113DB /* DatabaseManager.swift */,
 				3AE4A1DA2A63002400915D2B /* StorageManager.swift */,
+				3AE4A1DE2A6755B000915D2B /* Structs.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				3ABB80E02A167E5D006113DB /* DatabaseManager.swift in Sources */,
 				3AE4A1D72A57222400915D2B /* ChatViewController.swift in Sources */,
 				3A05D7272A09C92500A113D7 /* ProfileViewController.swift in Sources */,
+				3AE4A1DF2A6755B000915D2B /* Structs.swift in Sources */,
 				3A05D7052A098DB800A113D7 /* SceneDelegate.swift in Sources */,
 				3A05D7202A09C8F300A113D7 /* PhotoViewerViewController.swift in Sources */,
 			);
