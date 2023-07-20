@@ -26,7 +26,7 @@ class ChatViewController: MessagesViewController {
     
     private var messages = [Message]()
     
-    //MARK: - Initializing sender 
+    //MARK: - Initializing sender  
     
     private var selfSender: Sender? {
         guard let email = UserDefaults.standard.value(forKey: "email") as? String else {
@@ -97,13 +97,15 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
     /// Creates a unique message id using date of sending and emails of 2 users
     private func createMessageId() -> String? {
         
-        guard let currentUserEmail = UserDefaults.standard.value(forKey: "email") else {
+        guard let currentUserEmail = UserDefaults.standard.value(forKey: "email") as? String  else {
             return nil
         }
         
+        let safeCurrentEmail = DatabaseManager.safeEmail(emailAddress: currentUserEmail)
+        
         let dateString = Self.dateFormatter.string(from: Date())
         
-        let newIdentifier = "\(otherUserEmail)_\(currentUserEmail)_\(dateString)"
+        let newIdentifier = "\(otherUserEmail)_\(safeCurrentEmail)_\(dateString)"
         
         print("Created message id: \(newIdentifier)")
         
