@@ -19,6 +19,7 @@
 		3A05D7222A09C90000A113D7 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05D7212A09C90000A113D7 /* VideoPlayerViewController.swift */; };
 		3A05D7242A09C91200A113D7 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05D7232A09C91200A113D7 /* NewConversationViewController.swift */; };
 		3A05D7272A09C92500A113D7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05D7262A09C92500A113D7 /* ProfileViewController.swift */; };
+		3A67B9A92A6AEAEB001A4164 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A67B9A82A6AEAEB001A4164 /* ConversationTableViewCell.swift */; };
 		3ABB80E02A167E5D006113DB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB80DF2A167E5D006113DB /* DatabaseManager.swift */; };
 		3ABE64AD2A0D796900BB04CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE64AC2A0D796900BB04CA /* Extensions.swift */; };
 		3ABE64AF2A0EA49900BB04CA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE64AE2A0EA49900BB04CA /* Colors.swift */; };
@@ -44,6 +45,7 @@
 		3A05D7212A09C90000A113D7 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		3A05D7232A09C91200A113D7 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		3A05D7262A09C92500A113D7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3A67B9A82A6AEAEB001A4164 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 		3ABB80DF2A167E5D006113DB /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		3ABE64AC2A0D796900BB04CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3ABE64AE2A0EA49900BB04CA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				3A05D71A2A09C7A600A113D7 /* Storyboards */,
 				3A05D70B2A098DB900A113D7 /* Assets.xcassets */,
+				3A67B9A82A6AEAEB001A4164 /* ConversationTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				3A05D7072A098DB800A113D7 /* ConversationsViewController.swift in Sources */,
 				3A05D7222A09C90000A113D7 /* VideoPlayerViewController.swift in Sources */,
 				3ABE64AD2A0D796900BB04CA /* Extensions.swift in Sources */,
+				3A67B9A92A6AEAEB001A4164 /* ConversationTableViewCell.swift in Sources */,
 				3A05D7032A098DB800A113D7 /* AppDelegate.swift in Sources */,
 				3ABB80E02A167E5D006113DB /* DatabaseManager.swift in Sources */,
 				3AE4A1D72A57222400915D2B /* ChatViewController.swift in Sources */,
