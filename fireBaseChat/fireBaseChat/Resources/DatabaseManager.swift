@@ -7,6 +7,7 @@
 
 import Foundation
 import FirebaseDatabase
+import MessageKit
 
 final class DatabaseManager {
     
@@ -134,7 +135,7 @@ extension DatabaseManager {
         
         let reference = database.child("\(safeEmail)")
         
-        reference.observeSingleEvent(of: .value, andPreviousSiblingKeyWith: { snapshot, _  in
+        reference.observeSingleEvent(of: .value, andPreviousSiblingKeyWith: { [weak self] snapshot, _  in
             guard var userNode = snapshot.value as? [String: Any] else {
                 completion(false)
                 print("An error occured: User not found")
@@ -179,10 +180,36 @@ extension DatabaseManager {
                     "date" : dateString,
                     "message" : message,
                     "is_read" : false
+                ]
+            ]
+            
+            let recipient_newConversationData: [String: Any] = [
+                "id" : conversationId,
+                "other_user_email" : safeEmail,
+                "name" : "Self",
+                "latest_message" : [
+                    "date" : dateString,
+                    "message" : message,
+                    "is_read" : false
                     
                 ]
             ]
             
+            //Update recipient conversation entry
+            
+            self?.database.child("\(otherUserEmail)/conversations").observeSingleEvent(of: .value, with: { [weak self] snapshot in
+                if var conversations = snapshot.value as? [[String: Any]] {
+                    // append
+                    conversations.append(recipient_newConversationData)
+                    self?.database.child("\(otherUserEmail)/conversations").setValue(conversationId)
+                }
+                else {
+                    //create
+                    self?.database.child("\(otherUserEmail)/conversations").setValue([recipient_newConversationData])
+                }
+            })
+            
+            // Update current user conversation entry
             if var conversations = userNode["conversations"] as? [[String: Any]] {
                 //conversation array exists for current user
                 //you should append
@@ -328,9 +355,39 @@ extension DatabaseManager {
         
     }
     
+    //MARK: - getAllMessagesForConversation
     /// Fetches and returns all messages for the conversation with passed id
     
-    public func getAllMessagesForConversation(with id: String, completion: @escaping (Result<String, Error>) -> Void) {
+    public func getAllMessagesForConversation(with id: String, completion: @escaping (Result<[Message], Error>) -> Void) {
+       
+        database.child("\(id)/messages").observe(.value, with: { snapshot in
+            guard let value = snapshot.value as? [[String: Any]] else {
+                return
+            }
+            
+            let messages: [Message] = value.compactMap({ dictionary in
+                guard let name = dictionary["name"] as? String,
+                      let isRead = dictionary["is_read"] as? Bool,
+                      let messageID = dictionary["id"] as? String,
+                      let content = dictionary["content"] as? String,
+                      let senderEmail = dictionary["sender_email"] as? String,
+                      let type = dictionary["type"] as? String,
+                      let dateString = dictionary["date"] as? String,
+                      let date = ChatViewController.dateFormatter.date(from: dateString)else {
+                    return nil
+                }
+                
+                let sender = Sender(photoURL: "",
+                                    senderId: senderEmail,
+                                    displayName: name)
+                
+                return Message(sender: sender,
+                               messageId: messageID,
+                               sentDate: date,
+                               kind: .text(content))
+            })
+            completion(.success(messages))
+        })
         
     }
     
