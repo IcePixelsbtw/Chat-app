@@ -45,6 +45,16 @@ extension MessageKind {
     
 }
 
+struct Media: MediaItem {
+    
+    var url: URL?
+    var image: UIImage?
+    var placeholderImage: UIImage
+    var size: CGSize
+    
+    
+}
+
 struct Sender: SenderType {
   
    public var photoURL: String
