@@ -27,6 +27,7 @@
 		3AE4A1DB2A63002400915D2B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DA2A63002400915D2B /* StorageManager.swift */; };
 		3AE4A1DD2A630CF600915D2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DC2A630CF600915D2B /* GoogleService-Info.plist */; };
 		3AE4A1DF2A6755B000915D2B /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DE2A6755B000915D2B /* Structs.swift */; };
+		3AEFDB922A828C1500A98CE8 /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFDB912A828C1500A98CE8 /* NewConversationCell.swift */; };
 		6D5AC96115C4E0851DB738FC /* Pods_fireBaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694BDA958CDA896CCBC10E1D /* Pods_fireBaseChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		3AE4A1DA2A63002400915D2B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3AE4A1DC2A630CF600915D2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3AE4A1DE2A6755B000915D2B /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		3AEFDB912A828C1500A98CE8 /* NewConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationCell.swift; sourceTree = "<group>"; };
 		694BDA958CDA896CCBC10E1D /* Pods_fireBaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fireBaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DE5897E1B65C5121280E25 /* Pods-fireBaseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireBaseChat.release.xcconfig"; path = "Target Support Files/Pods-fireBaseChat/Pods-fireBaseChat.release.xcconfig"; sourceTree = "<group>"; };
 		ECED3B5843EAE05E93EE5D85 /* Pods-fireBaseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireBaseChat.debug.xcconfig"; path = "Target Support Files/Pods-fireBaseChat/Pods-fireBaseChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		3A05D7172A09C75900A113D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3AEFDB912A828C1500A98CE8 /* NewConversationCell.swift */,
 				3A05D71A2A09C7A600A113D7 /* Storyboards */,
 				3A05D70B2A098DB900A113D7 /* Assets.xcassets */,
 				3A67B9A82A6AEAEB001A4164 /* ConversationTableViewCell.swift */,
@@ -313,6 +316,7 @@
 				3AE4A1DF2A6755B000915D2B /* Structs.swift in Sources */,
 				3A05D7052A098DB800A113D7 /* SceneDelegate.swift in Sources */,
 				3A05D7202A09C8F300A113D7 /* PhotoViewerViewController.swift in Sources */,
+				3AEFDB922A828C1500A98CE8 /* NewConversationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -442,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
