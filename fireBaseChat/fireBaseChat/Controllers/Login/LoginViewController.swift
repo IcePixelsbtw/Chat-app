@@ -230,14 +230,14 @@ class LoginViewController: UIViewController {
                         return
                     }
                     UserDefaults.standard.set("\(firstName) \(lastName)", forKey: "name")
- 
+                    UserDefaults.standard.set(email, forKey: "email")
+
                 case .failure(let error):
                     print("An error occured. Failed to read data with error: \(error)")
                 }
             })
             
             
-            UserDefaults.standard.set(email, forKey: "email")
 
             
             print("Logged in User: \(user)")

@@ -148,6 +148,8 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
                 try FirebaseAuth.Auth.auth().signOut()
                 print("Log out succesfull")
                 
+                UserDefaults.standard.removeObject(forKey: "email")
+                
                 let vc = LoginViewController()
                 let nav = UINavigationController(rootViewController: vc)
                 nav.modalPresentationStyle = .fullScreen

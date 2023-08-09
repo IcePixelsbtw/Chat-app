@@ -79,3 +79,9 @@ struct LatestMessage {
     let isRead: Bool
     
 }
+
+
+struct SearchResult {
+    let name: String
+    let email: String
+}
