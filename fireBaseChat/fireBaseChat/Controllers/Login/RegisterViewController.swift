@@ -233,7 +233,7 @@ class RegisterViewController: UIViewController {
             alertUserLogInError()
             return
         }
-        
+        print("All writen data is okay")
         spinner.show(in: view)
         
         //MARK: Firebase register
@@ -242,21 +242,30 @@ class RegisterViewController: UIViewController {
             guard let strongSelf = self else {
                 return
             }
+            print("Got inside of userExists completion block")
+
             DispatchQueue.main.async {
                 strongSelf.spinner.dismiss()
             }
+            print("Dismissed spinner")
+
+            
             guard !exists else {
                 strongSelf.alertUserLogInError(message: "Looks like a user with that email already exists.")
                 return
             }
+            print("User with that email does not exist")
+
             FirebaseAuth.Auth.auth().createUser(withEmail: email,
                                                 password: password,
                                                 completion: { authResult, error in
                 guard authResult != nil, error == nil else {
+                    print("An error occured while creating a user. Error is: \(error)")
                     print("Error creating user...")
                     return
                 }
-                
+                print("Successfully created a user")
+
                 let chatUser = ChatAppUser(firstName: firstName,
                                            lastName: lastName ,
                                            emailAddress: email)
