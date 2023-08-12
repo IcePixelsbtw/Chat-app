@@ -35,7 +35,7 @@ class ProfileViewController: UIViewController {
             guard let strongSelf = self else {
                 return
             }
-            
+                        
             let actionSheet = UIAlertController(title: "Log out?",
                                                 message: "Are you sure you want to log out?",
                                                 preferredStyle: .alert)
@@ -46,6 +46,11 @@ class ProfileViewController: UIViewController {
                     return
                 }
                 
+                
+                UserDefaults.standard.setValue(nil, forKey: "email")
+                UserDefaults.standard.setValue(nil, forKey: "name")
+
+
                 //Log out facebook
                 
                 FBSDKLoginKit.LoginManager().logOut()
@@ -58,7 +63,6 @@ class ProfileViewController: UIViewController {
                     try FirebaseAuth.Auth.auth().signOut()
                     print("Log out succesfull")
                     
-                    UserDefaults.standard.removeObject(forKey: "email")
                     
                     let vc = LoginViewController()
                     let nav = UINavigationController(rootViewController: vc)
