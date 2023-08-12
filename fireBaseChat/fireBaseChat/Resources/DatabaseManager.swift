@@ -8,6 +8,7 @@
 import Foundation
 import FirebaseDatabase
 import MessageKit
+import CoreLocation
 
 final class DatabaseManager {
     
@@ -23,6 +24,9 @@ final class DatabaseManager {
     
 }
 
+// MARK: - getDataFor
+
+/// Gets data for user, usually with safeEmail and return the user struct from Database
 
 extension DatabaseManager {
     
@@ -39,13 +43,19 @@ extension DatabaseManager {
 }
 
 //MARK: - Account Management
+
 extension DatabaseManager {
     
+    
+    //MARK: userExists
+    
+    /// Checks if user alreadt exists in database with that email
+
     public func userExists(with email: String,
                            completion: @escaping ((Bool) -> Void)) {
-       
+        
         let safeEmail = DatabaseManager.safeEmail(emailAddress: email)
-    
+        
         database.child(safeEmail).observeSingleEvent(of: .value,
                                                      with: { snapshot in
             guard snapshot.value as? [String: Any] != nil else {
@@ -404,7 +414,7 @@ extension DatabaseManager {
                 if type == "photo" {
                     //photo
                     guard let imageUrl = URL(string: content),
-                    let placeholder = UIImage(systemName: "plus") else {
+                          let placeholder = UIImage(systemName: "plus") else {
                         return nil
                     }
                     
@@ -416,16 +426,30 @@ extension DatabaseManager {
                 } else if type == "video" {
                     //video
                     guard let videoUrl = URL(string: content),
-                    let placeholder = UIImage(systemName: "plus") else {
+                          let placeholder = UIImage(systemName: "plus") else {
                         return nil
                     }
-                    
                     let media = Media(url: videoUrl,
                                       image: nil,
                                       placeholderImage: placeholder,
                                       size: CGSize(width: 300, height: 300))
                     kind = .video(media)
-                } else {
+                }
+                else if type == "location" {
+                    //location
+                    let locationComponents = content.components(separatedBy: ",")
+                   guard let longitute = Double(locationComponents[0]),
+                         let latitude = Double(locationComponents[1]) else {
+                       return nil
+                   }
+                    
+                    let location = Location(location: CLLocation(latitude: latitude, longitude: longitute),
+                                            size: CGSize(width: 300, height: 300))
+                    kind = .location(location)
+                    
+                }
+                
+                else {
                     kind = .text(content)
                 }
                 
@@ -466,7 +490,7 @@ extension DatabaseManager {
         
         //MARK: - Getting messages and appending to the array a new message, afterwads appending it to the users database
         self.database.child("\(conversation)/messages").observeSingleEvent(of: .value, with: { [weak self] snapshot in
-           
+            
             guard let strongSelf = self else {
                 return
             }
@@ -497,7 +521,9 @@ extension DatabaseManager {
                     message = targetUrlString
                 }
                 break
-            case .location(_):
+            case .location(let locationData):
+                let location = locationData.location
+                message = "\(location.coordinate.longitude),\(location.coordinate.latitude)"
                 break
             case .emoji(_):
                 break
@@ -512,7 +538,7 @@ extension DatabaseManager {
             }
             
             print("sendMessage: Created a message with kind and content")
-
+            
             
             guard let myEmail = UserDefaults.standard.value(forKey: "email") as? String else {
                 completion(false)
@@ -532,7 +558,7 @@ extension DatabaseManager {
             ]
             
             print("sendMessage: Created a message entry with data and got currentUserEmail")
-
+            
             
             currentMessages.append(newMessageEntry)
             
@@ -542,8 +568,8 @@ extension DatabaseManager {
                     return
                 }
                 print("sendMessage: Appended a message into new array and successfully set a value into database")
-
-            //MARK: - Dealing with conversations and last messages
+                
+                //MARK: - Dealing with conversations and last messages
                 
                 strongSelf.database.child("\(currentEmail)/conversations").observeSingleEvent(of: .value, with: { snapshot in
                     
@@ -555,12 +581,12 @@ extension DatabaseManager {
                     ]
                     
                     print("sendMessage: Current user: Created empty value for dbEntryConv and created an updated value which is lastMessage")
-
+                    
                     
                     if var currentUserConversations = snapshot.value as? [[String: Any]] {
-                       // we need to create conversation entry
+                        // we need to create conversation entry
                         print("sendMessage: Current user: Got into snapshot and assigned it to currentUserConversations")
-
+                        
                         var targetConversation: [String: Any]?
                         var position = 0
                         
@@ -573,18 +599,18 @@ extension DatabaseManager {
                         }
                         
                         print("sendMessage: Current user: Did a for loop. line: 575")
-
+                        
                         
                         if var targetConversation = targetConversation {
                             targetConversation["latest_message"] = updatedValue
                             currentUserConversations[position] = targetConversation
                             databaseEntryConversations = currentUserConversations
                             print("sendMessage: Current user: successfully updated values in if var line 578")
-
+                            
                         }
                         else {
                             print("sendMessage: Current user: got into the first else case at line 585. Case should appear only if there is no such conversation in current user collection")
-
+                            
                             let newConversationData: [String: Any] = [
                                 "id" : conversation,
                                 "other_user_email" : DatabaseManager.safeEmail(emailAddress: otherUserEmail),
@@ -599,7 +625,7 @@ extension DatabaseManager {
                     }
                     else {
                         print("sendMessage: Current user: Got into second else case. This should appear only if there is no conversations at all at users collection")
-
+                        
                         let newConversationData: [String: Any] = [
                             "id" : conversation,
                             "other_user_email" : DatabaseManager.safeEmail(emailAddress: otherUserEmail),
@@ -627,7 +653,7 @@ extension DatabaseManager {
                         //MARK: Recipient (other user) part
                         
                         strongSelf.database.child("\(otherUserEmail)/conversations").observeSingleEvent(of: .value, with: { snapshot in
-                          
+                            
                             let updatedValue: [String: Any] = [
                                 "date" : dateString,
                                 "is_read" : false,
@@ -657,20 +683,20 @@ extension DatabaseManager {
                                 }
                                 
                                 print("sendMessage: Other user: did a for loop for all conversations")
-
+                                
                                 if var targetConversation = targetConversation {
                                     print("sendMessage: Other user: got into if var at line 657 where we need to just update conversation")
-
+                                    
                                     targetConversation["latest_message"] = updatedValue
                                     
                                     otherUserConversations[position] = targetConversation
                                     databaseEntryConversations = otherUserConversations
                                     print("sendMessage: Other user: Successfully updated a conversation to have a new message")
-
+                                    
                                 }
                                 else {
                                     print("sendMessage: Other user: got into first else case at line 667. Should appear when there is no such conversation in other users collection")
-
+                                    
                                     // failed to find in current collection
                                     let newConversationData: [String: Any] = [
                                         "id" : conversation,
@@ -683,11 +709,11 @@ extension DatabaseManager {
                                     databaseEntryConversations = otherUserConversations
                                 }
                                 print("sendMessage: Other user: Successfully created a new conversation and assigned it to dbEntryConversation")
-
+                                
                             }
                             else {
                                 print("sendMessage: Other user: Got into second else case. Should appear only if user does not have any conversations at all. line 684")
-
+                                
                                 // current collection does not exist
                                 let newConversationData: [String: Any] = [
                                     "id" : conversation,
@@ -700,23 +726,23 @@ extension DatabaseManager {
                                     newConversationData
                                 ]
                                 print("sendMessage: Other user: Successfully assigned a newConversationData to dbEntryConversation ")
-
+                                
                             }
-
+                            
                             strongSelf.database.child("\(otherUserEmail)/conversations").setValue(databaseEntryConversations,
-                                                                                                withCompletionBlock: { error, _ in
+                                                                                                  withCompletionBlock: { error, _ in
                                 guard error == nil else {
                                     print("An error while appending a new value to a recipient occured. Error is: \(error)")
                                     completion(false)
                                     return
                                 }
                                 completion(true)
-
+                                
                             })
                         })
                         
                         completion(true)
-
+                        
                     })
                 })
                 
@@ -753,7 +779,7 @@ extension DatabaseManager {
                 conversations.remove(at: positionToRemove)
                 reference.setValue(conversations, withCompletionBlock: { error, _ in
                     guard error == nil else {
-                       print("An error occured while setting new value for conversations: \(error)")
+                        print("An error occured while setting new value for conversations: \(error)")
                         completion(false)
                         return
                     }

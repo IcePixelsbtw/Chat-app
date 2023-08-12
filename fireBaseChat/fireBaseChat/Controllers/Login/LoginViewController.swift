@@ -33,6 +33,7 @@ class LoginViewController: UIViewController {
         textHelloView.text = "Hello Again!"
         textHelloView.font = .boldSystemFont(ofSize: 30)
         textHelloView.clipsToBounds = true
+        textHelloView.isUserInteractionEnabled = false
         
         
         return textHelloView
@@ -50,7 +51,7 @@ class LoginViewController: UIViewController {
         field.layer.borderColor = UIColor.lightGray.cgColor
         field.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         field.placeholder = "Email Adress..."
-        field.backgroundColor = .white
+        field.backgroundColor = .secondarySystemBackground
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         
@@ -67,7 +68,7 @@ class LoginViewController: UIViewController {
         field.layer.borderWidth = 1
         field.layer.borderColor = UIColor.lightGray.cgColor
         field.placeholder = "Password..."
-        field.backgroundColor = .white
+        field.backgroundColor = .secondarySystemBackground
         field.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
@@ -81,7 +82,7 @@ class LoginViewController: UIViewController {
         let button = UIButton()
         
         button.setTitle("Log In", for: .normal)
-        button.backgroundColor = .black
+        button.backgroundColor = .secondarySystemBackground
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 6
         button.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
@@ -116,7 +117,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         
-        view.self.backgroundColor = .white
+        view.self.backgroundColor = .systemBackground
         title = "Log in"
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register",

@@ -7,6 +7,7 @@
 
 import Foundation
 import MessageKit
+import CoreLocation
 
 struct Message: MessageType {
   
@@ -102,4 +103,24 @@ struct ChatAppUser {
         
         return "\(safeEmail)_profile_picture.png"
     }
+}
+
+struct Location: LocationItem {
+    var location: CLLocation
+    var size: CGSize
+}
+
+enum ProfileViewModelType {
+    case info, logout
+}
+
+struct ProfileViewModel {
+    let viewModelType: ProfileViewModelType
+    let title: String
+    let handler: (() -> Void)?
+}
+
+public enum keysForUserDefaults {
+    case emails
+    
 }

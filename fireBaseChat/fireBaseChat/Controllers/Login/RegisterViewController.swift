@@ -30,6 +30,7 @@ class RegisterViewController: UIViewController {
         imageView.tintColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         imageView.contentMode = .scaleAspectFit
         imageView.layer.masksToBounds = true
+        imageView.backgroundColor = .secondarySystemBackground
         
         return imageView
     }()
@@ -45,7 +46,7 @@ class RegisterViewController: UIViewController {
         field.layer.borderColor = UIColor.lightGray.cgColor
         field.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         field.placeholder = "Email Adress..."
-        field.backgroundColor = .white
+        field.backgroundColor = .secondarySystemBackground
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         
@@ -63,7 +64,7 @@ class RegisterViewController: UIViewController {
         field.layer.borderColor = UIColor.black.cgColor
         field.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         field.placeholder = "Enter your first name"
-        field.backgroundColor = .white
+        field.backgroundColor = .secondarySystemBackground
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         
@@ -81,7 +82,7 @@ class RegisterViewController: UIViewController {
         field.layer.borderColor = UIColor.lightGray.cgColor
         field.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         field.placeholder = "Enter your last name"
-        field.backgroundColor = .white
+        field.backgroundColor = .secondarySystemBackground
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         
@@ -100,7 +101,7 @@ class RegisterViewController: UIViewController {
         field.layer.borderWidth = 1
         field.layer.borderColor = UIColor.lightGray.cgColor
         field.placeholder = "Enter your password"
-        field.backgroundColor = .white
+        field.backgroundColor = .secondarySystemBackground
         field.layer.borderColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
@@ -131,7 +132,7 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.self.backgroundColor = .white
+        view.self.backgroundColor = .systemBackground
         
         title = "Sign up"
         
