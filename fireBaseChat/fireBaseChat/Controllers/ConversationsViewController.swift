@@ -253,14 +253,13 @@ extension ConversationsViewController: UITableViewDelegate, UITableViewDataSourc
             let conversationId = conversations[indexPath.row].id
             
             tableView.beginUpdates()
-            
+            self.conversations.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .left)
             DatabaseManager.shared.deleteConversation(conversationId: conversationId, completion: { [weak self] success in
             
-                if success {
-                    self?.conversations.remove(at: indexPath.row)
-                    tableView.deleteRows(at: [indexPath], with: .left)
+                if !success {
+                    print("An error occured. Failed to delete conversation with id: \(conversationId)")
                 }
-                
             })
             tableView.endUpdates()
 

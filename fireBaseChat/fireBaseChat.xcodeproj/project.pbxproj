@@ -23,7 +23,6 @@
 		3A99AD952A87D7B600A24786 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99AD942A87D7B600A24786 /* LocationPickerViewController.swift */; };
 		3ABB80E02A167E5D006113DB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB80DF2A167E5D006113DB /* DatabaseManager.swift */; };
 		3ABE64AD2A0D796900BB04CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE64AC2A0D796900BB04CA /* Extensions.swift */; };
-		3ABE64AF2A0EA49900BB04CA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE64AE2A0EA49900BB04CA /* Colors.swift */; };
 		3AE4A1D72A57222400915D2B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1D62A57222400915D2B /* ChatViewController.swift */; };
 		3AE4A1DB2A63002400915D2B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DA2A63002400915D2B /* StorageManager.swift */; };
 		3AE4A1DD2A630CF600915D2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4A1DC2A630CF600915D2B /* GoogleService-Info.plist */; };
@@ -51,7 +50,6 @@
 		3A99AD942A87D7B600A24786 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
 		3ABB80DF2A167E5D006113DB /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		3ABE64AC2A0D796900BB04CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		3ABE64AE2A0EA49900BB04CA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3AE4A1D62A57222400915D2B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3AE4A1DA2A63002400915D2B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3AE4A1DC2A630CF600915D2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 				3A05D7022A098DB800A113D7 /* AppDelegate.swift */,
 				3A05D7042A098DB800A113D7 /* SceneDelegate.swift */,
 				3ABE64AC2A0D796900BB04CA /* Extensions.swift */,
-				3ABE64AE2A0EA49900BB04CA /* Colors.swift */,
 				3ABB80DF2A167E5D006113DB /* DatabaseManager.swift */,
 				3AE4A1DA2A63002400915D2B /* StorageManager.swift */,
 				3AE4A1DE2A6755B000915D2B /* Structs.swift */,
@@ -328,7 +325,6 @@
 			files = (
 				3A05D71C2A09C8CA00A113D7 /* LoginViewController.swift in Sources */,
 				3A99AD952A87D7B600A24786 /* LocationPickerViewController.swift in Sources */,
-				3ABE64AF2A0EA49900BB04CA /* Colors.swift in Sources */,
 				3A05D71E2A09C8E000A113D7 /* RegisterViewController.swift in Sources */,
 				3AE4A1DB2A63002400915D2B /* StorageManager.swift in Sources */,
 				3A05D7242A09C91200A113D7 /* NewConversationViewController.swift in Sources */,

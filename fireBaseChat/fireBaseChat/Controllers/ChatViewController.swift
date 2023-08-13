@@ -20,7 +20,7 @@ class ChatViewController: MessagesViewController {
     private var onClickAddMenu = UIMenu()
     
     //MARK: - Date formatter
-    
+
     /// Using this function anywhere in the project to format date to the one style
     public static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -142,7 +142,7 @@ class ChatViewController: MessagesViewController {
         
         let photoSubMenu = UIMenu(title: "Photo", image: UIImage(systemName: "camera"), children: [cameraMenuAction, libraryMenuAction])
         
-        //MARK: -
+        //MARK: - Menu initializer
         
         onClickAddMenu = UIMenu(title: "", children: [locationMenuAction, videoSubMenu, photoSubMenu])
         
@@ -541,6 +541,8 @@ extension ChatViewController: MessagesDataSource, MessagesLayoutDelegate, Messag
     
 }
 
+//MARK: - didTapImage
+
 extension ChatViewController: MessageCellDelegate {
     
     func didTapImage(in cell: MessageCollectionViewCell) {
@@ -557,7 +559,8 @@ extension ChatViewController: MessageCellDelegate {
                 return
             }
             let vc = PhotoViewerViewController(with: imageUrl)
-            self.navigationController?.pushViewController(vc, animated: true)
+            
+            navigationController?.pushViewController(vc, animated: true)
             
         case .video(let media):
             guard let videoUrl = media.url else {
@@ -574,6 +577,7 @@ extension ChatViewController: MessageCellDelegate {
         
     }
     
+    //MARK: - didTapMessage
     
     func didTapMessage(in cell: MessageCollectionViewCell) {
         
@@ -587,9 +591,10 @@ extension ChatViewController: MessageCellDelegate {
         case .location(let locationData):
             let coordinates = locationData.location.coordinate
             let vc = LocationPickerViewController(coordinates: coordinates)
+            
             vc.title = "Location"
             
-            self.navigationController?.pushViewController(vc, animated: true)
+            navigationController?.pushViewController(vc, animated: true)
             
             
         default:
