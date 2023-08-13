@@ -17,6 +17,7 @@ class ChatViewController: MessagesViewController {
     
     private var senderPhotoURL: URL?
     private var otherUserPhotoURL: URL?
+    private var onClickAddMenu = UIMenu()
     
     //MARK: - Date formatter
     
@@ -80,41 +81,82 @@ class ChatViewController: MessagesViewController {
     //MARK: - setupInputButton
     
     private func setupInputButton() {
+        
+        let locationMenuAction = UIAction(title: "Location", image: UIImage(systemName: "location"), handler: { [weak self]  _ in
+            self?.presentLocationPicker()
+        })
+        
+        //MARK: - Video sub menu
+
+        let cameraVideoMenuAction = UIAction(title: "Camera", image: UIImage(systemName: "iphone.rear.camera"), handler: { [weak self] _ in
+            
+            let picker = UIImagePickerController()
+            
+            picker.sourceType = .camera
+            picker.delegate = self
+            picker.mediaTypes = ["public.movie"]
+            picker.videoQuality = .typeMedium
+            picker.allowsEditing = true
+            self?.present(picker, animated: true)
+            
+        })
+        
+        let libraryVideoMenuAction = UIAction(title: "Video Library", image: UIImage(systemName: "photo.stack.fill"), handler: { [weak self] _ in
+            
+            let picker = UIImagePickerController()
+            
+            picker.sourceType = .photoLibrary
+            picker.delegate = self
+            picker.allowsEditing = true
+            picker.mediaTypes = ["public.movie"]
+            picker.videoQuality = .typeMedium
+            self?.present(picker, animated: true)
+            
+        })
+        
+        
+        let videoSubMenu = UIMenu(title: "Video", image: UIImage(systemName: "video"), children: [cameraVideoMenuAction, libraryVideoMenuAction])
+        
+        
+        //MARK: -  Photo sub menu
+        let cameraMenuAction = UIAction(title: "Camera", image: UIImage(systemName: "iphone.rear.camera"), handler: { [weak self] _ in
+            
+            let picker = UIImagePickerController()
+            
+            picker.sourceType = .camera
+            picker.delegate = self
+            picker.allowsEditing = true
+            self?.present(picker, animated: true)
+        })
+        
+        let libraryMenuAction = UIAction(title: "Photo Library", image: UIImage(systemName: "photo.stack"), handler: { [weak self] _ in
+            
+            let picker = UIImagePickerController()
+            
+            picker.sourceType = .photoLibrary
+            picker.delegate = self
+            picker.allowsEditing = true
+            self?.present(picker, animated: true)
+            
+        })
+        
+        let photoSubMenu = UIMenu(title: "Photo", image: UIImage(systemName: "camera"), children: [cameraMenuAction, libraryMenuAction])
+        
+        //MARK: -
+        
+        onClickAddMenu = UIMenu(title: "", children: [locationMenuAction, videoSubMenu, photoSubMenu])
+        
         let button = InputBarButtonItem()
+        button.showsMenuAsPrimaryAction = true
+        button.menu = onClickAddMenu
         button.setSize(CGSize(width: 35, height: 35), animated: false)
         button.setImage(UIImage(systemName: "paperclip"), for: .normal)
-        button.onTouchUpInside { [weak self] _ in
-            self?.presentInputActionSheet()
-        }
-        
+       
         
         messageInputBar.setLeftStackViewWidthConstant(to: 36, animated: false)
         messageInputBar.setStackViewItems([button], forStack: .left, animated: false)
     }
     
-    //MARK: - presentInputActionSheet
-    
-    private func presentInputActionSheet() {
-        let actionSheet = UIAlertController(title: "Attach media",
-                                            message: "What would you like to attach?",
-                                            preferredStyle: .actionSheet)
-        actionSheet.addAction(UIAlertAction(title: "Photo", style: .default, handler: { [weak self] _ in
-            self?.presentPhotoInputActionSheet()
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Video", style: .default, handler: { [weak self] _ in
-            self?.presentVideoInputActionSheet()
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Audio", style: .default, handler: {  _ in
-            
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Location", style: .default, handler: { [weak self]  _ in
-            self?.presentLocationPicker()
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        
-        present(actionSheet, animated: true)
-        
-    }
     
     //MARK: - presentLocationPicker
     
@@ -161,82 +203,6 @@ class ChatViewController: MessagesViewController {
             
         }
         navigationController?.pushViewController(vc, animated: true)
-    }
-    
-    //MARK: - presentPhotoInputActionSheet
-    
-    private func presentPhotoInputActionSheet() {
-        
-        let actionSheet = UIAlertController(title: "Attach photo",
-                                            message: "Where would you like to attach a photo from?",
-                                            preferredStyle: .actionSheet)
-        
-        actionSheet.addAction(UIAlertAction(title: "Camera", style: .default, handler: { [weak self] _ in
-            
-            let picker = UIImagePickerController()
-            
-            picker.sourceType = .camera
-            picker.delegate = self
-            picker.allowsEditing = true
-            self?.present(picker, animated: true)
-            
-        }))
-        actionSheet.addAction(UIAlertAction(title: "Photo Library", style: .default, handler: { [weak self] _ in
-            
-            let picker = UIImagePickerController()
-            
-            picker.sourceType = .photoLibrary
-            picker.delegate = self
-            picker.allowsEditing = true
-            self?.present(picker, animated: true)
-            
-        }))
-        
-        
-        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        
-        present(actionSheet, animated: true)
-        
-    }
-    
-    //MARK: - presentVideoInputActionSheet
-    
-    private func presentVideoInputActionSheet() {
-        
-        let actionSheet = UIAlertController(title: "Attach Video",
-                                            message: "Where would you like to attach a video from?",
-                                            preferredStyle: .actionSheet)
-        
-        actionSheet.addAction(UIAlertAction(title: "Camera", style: .default, handler: { [weak self] _ in
-            
-            let picker = UIImagePickerController()
-            
-            picker.sourceType = .camera
-            picker.delegate = self
-            picker.mediaTypes = ["public.movie"]
-            picker.videoQuality = .typeMedium
-            picker.allowsEditing = true
-            self?.present(picker, animated: true)
-            
-        }))
-        actionSheet.addAction(UIAlertAction(title:  "Library", style: .default, handler: { [weak self] _ in
-            
-            let picker = UIImagePickerController()
-            
-            picker.sourceType = .photoLibrary
-            picker.delegate = self
-            picker.allowsEditing = true
-            picker.mediaTypes = ["public.movie"]
-            picker.videoQuality = .typeMedium
-            self?.present(picker, animated: true)
-            
-        }))
-        
-        
-        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        
-        present(actionSheet, animated: true)
-        
     }
     
     //MARK: - viewDidAppear

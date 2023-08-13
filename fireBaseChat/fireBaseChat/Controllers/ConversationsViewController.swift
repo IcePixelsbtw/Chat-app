@@ -29,7 +29,7 @@ class ConversationsViewController: UIViewController {
     
     private let noConversationsLabel: UILabel = {
         let label = UILabel()
-        label.text = "No conversations yet. Wanna start a new one?"
+        label.text = "No conversations yet."
         label.textAlignment = .center
         label.textColor = .black
         label.font = .boldSystemFont(ofSize: 30)
